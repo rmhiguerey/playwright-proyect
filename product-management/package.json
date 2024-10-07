@@ -1,0 +1,12 @@
+{
+    "name": "product-management",
+    "version": "1.0.0",
+    "main": "public/index.html",
+    "scripts": {
+      "start": "json-server --watch server/db.json --port 3008"
+    },
+    "dependencies": {
+      "json-server": "^0.16.3"
+    }
+  }
+  
