@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:bdd": "npx bddgen && npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rmhiguerey/playwright-proyect.git"
@@ -18,5 +20,9 @@
   "devDependencies": {
     "@playwright/test": "^1.47.2",
     "@types/node": "^22.7.4"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "playwright-bdd": "^7.5.0"
   }
 }

@@ -56,6 +56,14 @@
         cd playwright-project
         npm install
 
-    - Run test
+    - Run 
+
+        npm run test:bdd
+
+    - Show report
+
+        npx playwright show-report    
+
+
 
 
